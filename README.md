@@ -1,5 +1,3 @@
-# SparkFoundation-BasicBankApp-Task2
-
 Basic Banking App
 
 Description
