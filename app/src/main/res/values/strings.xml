@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Bank</string>
+    <string name="banking_system_app">Banking System</string>
+    <string name="all_users">Users</string>
+    <string name="all_transactions">Past Transactions</string>
+    <string name="view_all_transactions">View All Transactions</string>
+    <string name="view_all_customers">View All Customers</string>
+    <string name="banking_management_system">Banking Management System</string>
+    <string name="select_the_customer">Select the customer</string>
+    <string name="hey">hey</string>
+</resources>

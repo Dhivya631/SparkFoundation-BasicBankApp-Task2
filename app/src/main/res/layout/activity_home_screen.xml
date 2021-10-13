@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".userinteraction.HomeScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bank_logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/bank_logo" />
+
+    <TextView
+        android:id="@+id/bank_title"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:text="@string/banking_management_system"
+        android:textColor="#050505"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#090909"
+        android:textColor="@color/white"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:onClick="showAllUsers"
+        android:text="@string/view_all_customers"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#050505"
+        android:textColor="@color/white"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:onClick="showAllTransactions"
+        android:text="@string/view_all_transactions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-210dp"
+        android:src="@drawable/person" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView1"
+        android:layout_width="125dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/transactionimages" />
+
+</LinearLayout>
